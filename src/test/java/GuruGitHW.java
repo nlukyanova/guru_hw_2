@@ -15,7 +15,7 @@ public class GuruGitHW {
     @Test
     void duckduckgoTest() {
         open("https://www.duckduckgo.com/");
-        $("[name=q]").setValue("Dodo").pressEnter();
+        $("[name=q]").setValue("Java").pressEnter();
         $("body").shouldHave(text("qa.guru"));
     }
 }
